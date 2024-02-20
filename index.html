@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="timer">Time Left: <span id="timer">220</span> seconds</div>
+            <div class="score">Score: <span id="score">0/10</span></div>
+        </div>
+        <div class="question-section">
+            <div class="question-number">Question <span id="question-number">1</span></div>
+            <div class="question" id="question">Question goes here?</div>
+            <div class="options" id="options">
+            </div>
+            <div id="feedback"></div>
+            <button id="submit-btn">Submit</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
